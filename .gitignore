@@ -1,0 +1,80 @@
+# ================================
+# Python cache
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Virtual environments
+# ================================
+venv/
+env/
+.venv/
+.conda/
+conda-env/
+anaconda/
+miniconda/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Model files (DO NOT PUSH)
+# ================================
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+saved_model/
+checkpoints/
+
+# ================================
+# Datasets (large files)
+# ================================
+data/
+datasets/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+
+# ================================
+# TensorFlow / Keras logs
+# ================================
+logs/
+tensorboard_logs/
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/
+.streamlit/secrets.toml
+
+# ================================
+# VS Code
+# ================================
+.vscode/
+.history/
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.*
+
+# ================================
+# Coverage / testing
+# ================================
+.coverage
+pytest_cache/
